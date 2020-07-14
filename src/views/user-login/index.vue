@@ -4,7 +4,7 @@
             <el-tab-pane label="登录" name="login">
                 <login></login>
             </el-tab-pane>
-            <el-tab-pane label="注册" name="second">
+            <el-tab-pane label="注册" name="register">
                 <register></register>
             </el-tab-pane>
         </el-tabs>
@@ -20,6 +20,11 @@
         data(){
             return{
                 activeName: 'login'
+            }
+        },
+        created(){
+            if(this.$route.query.ac === 'zhuce'){
+                this.activeName = 'register'
             }
         }
     }

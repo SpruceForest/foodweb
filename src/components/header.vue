@@ -17,7 +17,7 @@
                     </el-col>
                     <el-col :span="6" :offset="3" class="avatar-box" v-show="!isLogin">
                         <router-link :to="{name:'login'}" class="user-name">登录</router-link>
-                        <router-link :to="{name:'login'}" class="collection">注册</router-link>
+                        <router-link :to="{name:'login',query:{ac:'zhuce'}}" class="collection">注册</router-link>
                     </el-col>
                 </el-row>
             </div>
