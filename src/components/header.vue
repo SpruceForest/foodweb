@@ -64,14 +64,14 @@
 <style lang="stylus">
     .header
         height 129px
-        background-color #c90000
-
+        background-color #e8966b
         .logo
             display: block;
             height: 129px;
             width: 184px;
-            background url(https://s1.c.meishij.net/n/images/logo2.png) -15px 9px no-repeat;
-
+            background url(https://i3.meishichina.com/static/lib/logo.png) 19px 30px no-repeat;
+            -webkit-background-size: 80% 50%
+            background-size: 80% 50%
     .header_c, .nav_c
         width 990px
         margin 0 auto
@@ -79,14 +79,10 @@
         height 60px
         background-color #fff;
         box-shadow 10px 0px 10px rgba(0,0,0,0.3)
-
-
     .user-name
         margin-left 5px
         color #fff
-
     .collection
         margin-left 5px
         color #fff
-
 </style>
